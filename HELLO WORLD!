@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+class zhangjinhang
+{
+public:
+	void chello()
+	{
+		cout << "Hello ";
+	}
+	void cworld()
+	{
+		cout << "World!";
+	}
+};
+int main()
+{
+	zhangjinhang ZJH;
+	ZJH.chello();
+	ZJH.cworld();
+	return 0;
+}
